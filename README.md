@@ -1,0 +1,3 @@
+I used AI to help with disabling the back button when reaching the Home screen so that it doesn’t accidentally exit the app. I also used it to understand and implement passing both String and Int arguments in route declarations.
+
+AI initially misunderstood the navigation logic, thinking that once you leave the Home screen, you could never return to it. I corrected this so that even if you are on Categories, List, or Detail screens, you can still return to Home either by pressing the back button in the TopAppBar or by navigating back through the stack step by step using the device back button.
