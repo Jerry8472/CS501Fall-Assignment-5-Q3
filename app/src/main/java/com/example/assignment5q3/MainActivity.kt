@@ -92,7 +92,7 @@ fun AppTopBar(navController: NavHostController, currentRoute: String?) {
             if (currentRoute != Routes.Home.route) {
                 IconButton(onClick = {
                     navController.navigate(Routes.Home.route) {
-                        popUpTo(0) { inclusive = true }
+                        popUpTo(Routes.Home.route) { inclusive = true }
                     }
                 }) {
                     Icon(Icons.Filled.ArrowBack, contentDescription = "Home")
